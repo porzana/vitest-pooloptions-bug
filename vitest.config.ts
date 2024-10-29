@@ -7,6 +7,7 @@ const execArgv = [
 
 export default defineConfig({
 	test: {
+		pool: "threads",
 		poolOptions: {
 			forks: {
 				execArgv,
